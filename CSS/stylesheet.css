@@ -66,3 +66,12 @@ body {
     color: antiquewhite;
     font-family: monospace;
 }
+/* Responsividade */
+@media (orientation: landscape) and (max-width: 832px) {
+    .container div {
+        width: 800px;
+    }
+    .container div img {
+        position: relative; left: 44%;
+    }
+}
