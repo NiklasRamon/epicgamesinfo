@@ -74,4 +74,7 @@ body {
     .container div img {
         position: relative; left: 44%;
     }
+    .container div p {
+        font-size: large;
+    }
 }
